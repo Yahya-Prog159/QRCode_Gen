@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylr.css" />
+    <title>QRcode</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <p>QRCode Converter</p>
+
+
+      <div class="input-container">
+        <input type="text" required id="qrText">
+        <label>URL or Text</label>
+    </div>
+
+     <div class="img" id="imgBox">
+        <img src="" id="qrImage">
+      </div>
+        <button onclick="generateQR()">Generate QR</button>
+        <button onclick="deleteQR()" class="delete-btn">Delete QR</button>
+ 
+ </div>
+    <script src="script.js"></script>
+  </body>
+</html>
